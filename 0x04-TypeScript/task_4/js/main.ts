@@ -24,18 +24,18 @@ const reactTeacher: Subjects.Teacher = {
 
 // Create subject instances
 const cpp = new Subjects.Cpp(); // const cpp = new Cpp()
-const java = new Subjects.Java();
-const react = new Subjects.React();
+const java = new Subjects.Java(); //const java = new Java()
+const react = new Subjects.React(); //const react = new React()
 
 // ----------- CPP -------------
 console.log("C++");
-cpp.setTeacher(cTeacher);
+cpp.setTeacher(cTeacher); //cTeacher: Teacher
 console.log(cpp.getRequirements());
 console.log(cpp.getAvailableTeacher());
 
 // ----------- Java ------------
 console.log("Java");
-java.setTeacher(javaTeacher);
+java.setTeacher(javaTeacher); //java.setTeacher(cTeacher)
 console.log(java.getRequirements());
 console.log(java.getAvailableTeacher());
 
