@@ -9,8 +9,8 @@ namespace Subjects {
 
     getAvailableTeacher(): string {
       if (
-        this.teacher?.experienceTeachingJava &&
-        this.teacher.experienceTeachingJava > 0
+        this.teacher?.experienceTeachingJava && //experienceTeachingJava? number
+        this.teacher.experienceTeachingJava > 0 //interface Teacher
       ) {
         return `Available Teacher: ${this.teacher.firstName}`;
       } else {
