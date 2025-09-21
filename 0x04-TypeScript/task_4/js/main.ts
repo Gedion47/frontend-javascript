@@ -23,7 +23,7 @@ const reactTeacher: Subjects.Teacher = {
 };
 
 // Create subject instances
-const cpp = new Subjects.Cpp();
+const cpp = new Subjects.Cpp(); // const cpp = new Cpp()
 const java = new Subjects.Java();
 const react = new Subjects.React();
 
